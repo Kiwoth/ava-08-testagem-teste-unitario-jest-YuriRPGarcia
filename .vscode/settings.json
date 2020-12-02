@@ -11,7 +11,7 @@
   "editor.formatOnSave": false,
   "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Source Code Pro', 'Consolas', 'Droid Sans Mono', 'monospace'",
   "editor.fontLigatures": true,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "vsicons.dontShowNewVersionMessage": true,
   "files.watcherExclude": {
     "node_modules/*": true,
@@ -33,9 +33,6 @@
     "**/CVS": true,
     "**/.DS_Store": true
   },
-  "workbench.iconTheme": "vscode-icons",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "atomKeymap.promptV3Features": true,
   "editor.formatOnPaste": true,
   "editor.lineNumbers": "off",
   "workbench.activityBar.visible": true,

@@ -8,5 +8,5 @@
     "rootDir": "./src",
     "esModuleInterop": true
   },
-  "include": ["./src/*"]
+  "include": ["./src/*", "src/Purchase/Purchase.ts", "src/Purchase/Product.ts", "src/Purchase/Installment.ts"]
 }
