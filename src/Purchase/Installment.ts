@@ -18,7 +18,10 @@ export class Installment {
       throw new Error("O número de parcelas e o valor total devem ser maiores que 0")
 
     if (total / months < 1)
-      throw new Error("O valor da parcela precisa ser maior que 0")
+      throw new Error("O valor da parcela precisa ser maior que 1")
+    
+    if (months % 1 !== 0)
+      throw new Error("O valor da parcela precisa inteiro")
 
     const monthlyAmount = total / months
 
